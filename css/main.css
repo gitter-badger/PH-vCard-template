@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 /* GLOBAL CLASS */
 
@@ -6,6 +8,53 @@
     clear: both;
 }
 
+.hr-grey {
+    background-color: #dbdbdb;
+    width: 35%;
+    border: none;
+    height: 1px;
+    margin: 30px auto;
+}
+
+/* CONTACT */
+
+#contact {
+    width: 100%;
+    text-align: center;
+}
+
+.contact-wrap {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.title {
+    margin: 35px 0 20px 0;
+}
+
+.title-section {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #dbdbdb;
+    position: relative;
+}
+
+.title-section::after {
+    content: " ";
+    height: 1px;
+    background-color: #ed5565;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    bottom: -1px;
+}
+
+.contact-form-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
 /* FOOTER */
 
 #footer {
@@ -27,7 +76,7 @@
 .social-icon {
     width: 25%;
     float: left;
-    margin-top: 10%;
+    margin-top: 30px;
 }
 
 .icon-sm {
@@ -36,6 +85,6 @@
 
 #scroll-top {
     width: 10%;
-    margin: 5% 0;
+    margin: 20px 0;
     cursor: pointer;
 }
