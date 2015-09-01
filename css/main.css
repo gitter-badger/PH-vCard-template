@@ -1,11 +1,12 @@
-
-
 /* GLOBAL CLASS */
+
+body {
+    background-color: #20272f;
+}
 
 .reset {
     clear: both;
 }
-
 /* FOOTER */
 
 #footer {
@@ -38,4 +39,29 @@
     width: 10%;
     margin: 5% 0;
     cursor: pointer;
+}
+
+#menu {
+    width: 377px;
+    height: 11px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+header {
+    height: 93px;
+    background-color: rgba(255, 255, 255, 0.1)
+}
+
+.separator {
+    display: inline-block;
+    padding: 0px 23px;
+}
+
+#menu > a {
+    font: 400 16px PTSans;
+    color: #ffffff;
+}
+a {
+    text-decoration: none;
 }
